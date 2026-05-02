@@ -1,6 +1,6 @@
 # XTrace MemHub — LLM-Wiki Mindmap Guide
 
-Turn your **ChatGPT**, **Claude**, and **Gemini** history into an **LLM-Wiki mindmap** — structured Markdown you can browse in Obsidian-style tools and explore as a graph in MemHub.
+Turn your **ChatGPT**, **Claude**, and **Gemini** history into an **Andrey Karpathy's LLM-Wiki mindmap** — structured Markdown you can browse in Obsidian-style tools and explore as a graph in MemHub.
 
 **MemHub** is your context control panel for AI agents. This guide walks through exporting chat history, importing it into MemHub, exploring the **Mindmap**, and downloading a **Markdown ZIP** (“Mindmap Markdowns”) for your second brain — without writing code or using Claude Code.
 
@@ -107,17 +107,6 @@ For Google-wide exports, see Google’s account export tools (e.g. Google Takeou
    - **Link style:** Standard vs Relationship (wikilinks for supersession, linked facts, etc.)  
 4. Click **Confirm export** and save the ZIP.  
 5. Unzip into your Obsidian vault or any Markdown wiki.
-
----
-
-## Product Hunt blurb (copy-paste)
-
-**XTrace MemHub**  
-Turn your GPT/Claude/Gemini history into a LLM-Wiki Mindmap.
-
-XTrace MemHub is your context control panel for AI agents. The feature we are launching this week is building your own LLM-Wiki without coding or using Claude Code. We extract AI memory and context from your chat history, store it in an encrypted vector database, and organize it in a file system that Obsidian prefers. Now you can keep building your second brain without any cold start!
-
-**Video:** https://www.youtube.com/watch?v=78CBcpO30v0
 
 ---
 
