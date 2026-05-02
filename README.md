@@ -13,7 +13,8 @@ MemHub extracts AI memory and context from your chats, stores it in an encrypted
 [![Video walkthrough](https://img.youtube.com/vi/78CBcpO30v0/maxresdefault.jpg)](https://www.youtube.com/watch?v=78CBcpO30v0)
 
 **[Open on YouTube →](https://www.youtube.com/watch?v=78CBcpO30v0)**
-[![XTrace MemHub on Product Hunt](https://ph-files.imgix.net/fba354dc-f385-4538-8805-5e3e6e72cf09.png?auto=format&fit=crop&w=240&h=240)](https://www.producthunt.com/products/xtrace-memhub?utm_source=github&utm_medium=readme)
+
+[![XTrace MemHub on Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1136429&theme=light)](https://www.producthunt.com/products/xtrace-memhub?utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-xtrace-memhub)
 
 ---
 
