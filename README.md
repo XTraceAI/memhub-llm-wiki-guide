@@ -13,6 +13,7 @@ MemHub extracts AI memory and context from your chats, stores it in an encrypted
 [![Video walkthrough](https://img.youtube.com/vi/78CBcpO30v0/maxresdefault.jpg)](https://www.youtube.com/watch?v=78CBcpO30v0)
 
 **[Open on YouTube →](https://www.youtube.com/watch?v=78CBcpO30v0)**
+[![XTrace MemHub on Product Hunt](https://ph-files.imgix.net/fba354dc-f385-4538-8805-5e3e6e72cf09.png?auto=format&fit=crop&w=240&h=240)](https://www.producthunt.com/products/xtrace-memhub?utm_source=github&utm_medium=readme)
 
 ---
 
@@ -75,26 +76,7 @@ For Google-wide exports, see Google’s account export tools (e.g. Google Takeou
 
 ---
 
-## 4. Import into MemHub
-
-1. Sign in at **[mem.xtrace.ai](https://mem.xtrace.ai)**.  
-2. Open **Memories** (Beliefs / Facts view).  
-3. Click **Import Memory**.  
-4. **Step 1 — Select source:** choose **ChatGPT** or **Claude** (matches your export).  
-5. Expand **Instructions** if you need the export reminders.  
-6. **Step 2 — Upload file:** drag in **`conversations.json`** or the **`.zip`**, or use **Browse File**.  
-7. Complete the flow; wait until processing finishes.
-
----
-
-## 5. Mindmap (graph)
-
-1. On the **Memories** page, open the **Mindmap** tab (available when the feature is enabled).  
-2. Explore relationships between memories in the interactive graph.
-
----
-
-## 6. Export Markdown (LLM-Wiki ZIP)
+## 4. Export Markdown (LLM-Wiki ZIP)
 
 1. On **Memories**, click **Export** (download icon).  
 2. The modal title is **Export Markdown** — subtitle *ZIP for Mindmap Markdowns*.  
@@ -104,11 +86,25 @@ For Google-wide exports, see Google’s account export tools (e.g. Google Takeou
    - **Platform:** memhub, chatgpt, gemini, claude, other  
    - **Belief type** / **Artifact type**  
    - **Content density:** Full (YAML + body) vs Compact  
-   - **Link style:** Standard vs Relationship (wikilinks for supersession, linked facts, etc.)  
+   - **Link style:** Standard vs Relationship (wikilinks for supersession, linked facts, etc.)
+   - We suggest keep everything as default
+   <img width="2428" height="1193" alt="image" src="https://github.com/user-attachments/assets/20f01a01-f6e8-43f9-a783-03759bff6bbf" />
+
 4. Click **Confirm export** and save the ZIP.  
 5. Unzip into your Obsidian vault or any Markdown wiki.
 
 ---
+
+## 5. View on Obsidian
+
+1. Make sure your downloaded file is unzipped
+2. Open your Obsidian app
+3. On the top of the window, File -> Open Vault -> select the unzipped folder -> Open
+<img width="645" height="406" alt="image" src="https://github.com/user-attachments/assets/e360d909-f4a4-4d4f-ad3e-aec04b5a995a" />
+<img width="815" height="662" alt="image" src="https://github.com/user-attachments/assets/8ef02c38-e164-4b9f-901b-68eddd911e98" />
+4. On the left sidebar, click Open graph view
+   <img width="1501" height="882" alt="image" src="https://github.com/user-attachments/assets/5b4a3577-9ed2-4b4a-a6cc-da581ef61989" />
+
 
 ## License
 
