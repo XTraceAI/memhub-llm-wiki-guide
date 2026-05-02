@@ -22,58 +22,33 @@ MemHub extracts AI memory and context from your chats, stores it in an encrypted
 
 | Link | Description |
 |------|-------------|
-| [MemHub (sign in)](https://mem.xtrace.ai) | Web app |
+| [MemHub](https://mem.xtrace.ai) | Web app |
 | [MemHub Chrome extension](https://chromewebstore.google.com/detail/bmfpjofdjjelhnjokoolehikpaaohapj) | Capture context from the browser (including Gemini in-product) |
 
 ---
 
-## End-to-end flow
-
-1. **Export** your data from ChatGPT or Claude (see below).  
-2. **Import** the file into MemHub (**Memories** → **Import Memory**).  
-3. Wait for processing; your **Beliefs (Facts)** and **Artifacts** populate over time.  
-4. Open the **Mindmap** tab to explore the graph (when enabled for your workspace).  
-5. Click **Export** → **Export Markdown** → **Confirm export** to download a **ZIP of Markdown** for Obsidian / LLM-Wiki workflows.
-
-Screenshots live in [`docs/screenshots/`](docs/screenshots/README.md) — add your own step images there and reference them from this README if you like.
-
----
-
-## 1. Export from ChatGPT (OpenAI)
+## 1. Install the Chrome Extension
 
 These steps match the in-product **Instructions** panel when **ChatGPT** is selected in MemHub.
 
-1. Open ChatGPT in your browser.  
-2. Go to **Settings** → **Data controls**.  
-3. Click **Export data** and wait for the download.  
-4. Extract the ZIP and find **`conversations.json`** inside the exported folder.
-
-**Upload to MemHub:** either `conversations.json` or the whole export **`.zip`** (MemHub accepts `.json` and `.zip`).
-
-Official reference: [OpenAI — Export your data](https://help.openai.com/en/articles/7260999-how-do-i-export-my-chatgpt-history-and-data).
+1. Go to [MemHub Chrome extension](https://chromewebstore.google.com/detail/bmfpjofdjjelhnjokoolehikpaaohapj) 
+2. Add XTrace Memory to your browser.  
 
 ---
 
-## 2. Export from Claude (Anthropic)
+## 2. Export from ChatGPT (OpenAI) / Claude (Anthropic) / Gemini (Google)
 
-These steps match the in-product **Instructions** panel when **Claude** is selected in MemHub.
-
-1. Open Claude in your browser.  
-2. Go to **Settings** → **Privacy**.  
-3. Click **Export data** and wait for the download.  
-4. Extract the ZIP and find **`conversations.json`**.
-
-**Upload to MemHub:** same as ChatGPT — **`conversations.json`** or **`.zip`**.
-
-Official reference: [Anthropic — Exporting your Claude data](https://support.anthropic.com/en/articles/7996846-how-can-i-export-my-claude-ai-data) (verify current UI labels in your account).
+1. Open ChatGPT/Claude/Gemini in your browser.
+2. Click the XTrace Memory extension in the Extensions.  
+3. Sign in
+4. You would see a **Memory** button at your top right, click it
+5. Click export the last N chats you have. Recommend you to put a smaller number if you not sure how much
 
 ---
 
-## 3. Gemini (Google)
+## 3. Go to MemHub and Wait
 
-Bulk ZIP import in the web UI is centered on **ChatGPT** and **Claude** exports today. For **Gemini** and other in-browser assistants, use the **[MemHub Chrome extension](https://chromewebstore.google.com/detail/bmfpjofdjjelhnjokoolehikpaaohapj)** to capture context as you chat, so memories accumulate in MemHub with **`gemini`** (and other) source labels — then use **Mindmap** and **Export Markdown** the same way.
-
-For Google-wide exports, see Google’s account export tools (e.g. Google Takeout) and any Gemini-specific export options in your Google account settings; formats change over time, so prefer the extension for a repeatable MemHub path.
+It could take a few minutes for AI to search through your data and extracts memories. Go to [MemHub](https://mem.xtrace.ai) to see your memories getting created in realtime
 
 ---
 
